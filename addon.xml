@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<addon scheme='2.0'>
+	<id>deny_not_authenticated</id>
+	<version>1.0</version>
+	<name>deny_not_authenticated</name>
+	<description>Закрывает витрину от неавторизованных пользователей
+	</description>
+	<priority>100500</priority>
+</addon>
