@@ -1,4 +1,4 @@
-# cs_cart_deny_not_authenticated
+# cs-cart deny_not_authenticated addon
 Аддон для cs-cart, который закрывает витрину от неавторизованных пользователей
 
 # установка
