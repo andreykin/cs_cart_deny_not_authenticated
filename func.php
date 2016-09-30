@@ -19,7 +19,8 @@ function fn_deny_not_authenticated_before_dispatch($controller, $mode, $action, 
 	if ($area == 'C' && empty($auth['user_id']) && ! in_array($controller, array(
 		'auth',
 		'profiles',
-		'image' // image.captcha
+		'image', // image.captcha
+		'exim_1c'
 	))) {
 		// If user is not logged in redirect to login page from not found page
 		fn_redirect("auth.login_form");
